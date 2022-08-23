@@ -1,17 +1,30 @@
-import React from 'react';
-import style from 'style-components'
+import CartWidget from "./CartWidget";
 
-function NavBar() {
-  return (
-    <>
-    <NavContainer>
-        <h2>La Pelu <span>by Ailu</span></h2>
+const Navbar = () => {
+	return (
+		<header className="header">
+			<nav className="menu">
+				<ul className="nav-menu">
+					<li>
+						<a className="active" href="#">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="#">Tienda</a>
+					</li>
+					<li>
+						<a href="#">Iniciar Sesion</a>
+					</li>
+					<li>
+						<a href="#">Registrarse</a>
+					</li>
+				</ul>
 
-        </NavContainer>
-    </>
-  );
-}
+				<CartWidget />
+			</nav>
+		</header>
+	);
+};
 
-export default NavBar;
-
-
+export default Navbar;
