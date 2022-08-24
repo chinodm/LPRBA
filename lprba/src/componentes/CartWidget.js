@@ -1,9 +1,9 @@
-import CartIcon from "../img/carrito.png";
+import Carrito from "../img/carrito.png";
 
 const CartWidget = () => {
 	return (
 		<div className="ShoppingCart">
-			<img src={CartIcon} alt="CartIcon" className="CartIcon" />
+			<img src={Carrito} alt="Carrito" className="Carrito" />
 			<h4>4</h4>
 		</div>
 	);
