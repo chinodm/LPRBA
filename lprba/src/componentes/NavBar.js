@@ -19,7 +19,7 @@ const NavBar = () => {
 						<a href="#">Login</a>
 					</li>
 					<li>
-						<a href="#">Sobre Mi</a>
+						<a href="#">Sobre MI</a>
 					</li>
 				</ul>
 
